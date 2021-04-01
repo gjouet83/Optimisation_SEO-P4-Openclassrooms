@@ -597,7 +597,7 @@ p {
 .social {
     display: block;
     padding-top: 10px;
-    height: 48px;
+    padding-bottom: 10px;
     max-width: 400px;
     margin: auto auto auto auto;
 }
