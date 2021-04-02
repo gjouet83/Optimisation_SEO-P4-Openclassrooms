@@ -1,0 +1,23 @@
+<IfModule mod_gzip.c>
+    mod_gzip_on       Yes
+    mod_gzip_dechunk  Yes
+    mod_gzip_minimum_file_size 512
+    mod_gzip_maximum_file_size 100000
+    mod_gzip_item_include file \.css$
+    mod_gzip_item_include mime ^text/css$
+    mod_gzip_item_include file \.js$
+    mod_gzip_item_include mime ^application/x-javascript.*
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresDefault "access plus 1 month"
+    ExpiresByType text/css "access plus 1 day"
+    ExpiresByType image/png "access plus 1 week"
+    ExpiresByType image/gif "access plus 1 week"
+    ExpiresByType image/jpeg "access plus 1 week"
+    ExpiresByType application/x-javascript "access plus 2 month"
+    ExpiresByType application/javascript "access plus 2 month"
+    ExpiresByType text/javascript "access plus 2 month"
+
+</IfModule>
