@@ -11,7 +11,7 @@ Projet n°4 du parcours développeur web chez OpenClassrooms qui a pour objectif
 *** 
 - Le rapport d’analyse SEO du site dans lequel on identifie clairement les recommandations - [rapport d'analyse](/P4_01_rapport_analyse.pdf)
 - Le code source complet du site amélioré
-- Un rapport d’optimisation comprenant une comparaison des résultats (y compris de la vitesse de chargement et l’accessibilité) - [rapport d'optimisation](/P4_01_rapport_optimisation.pdf)
+- Un rapport d’optimisation comprenant une comparaison des résultats (y compris de la vitesse de chargement et l’accessibilité) - [rapport d'optimisation](/P4_03_rapport_optimisation.pdf)
 
 
 ## Lien vers le site optimisé
